@@ -7,9 +7,10 @@ puts "Here are the months: #{months}"
 
 # %q instead of quotes so apostrophes in the string dont get confused
 # used ! as a delimter instead of {}
+# removed indentation, using this multiline prints the indentations
 puts %q!
-	There's something going on here.
-	With the three double-quotes.
-	We'll be able to type as much as we like.
-	Even 4 lines if we want, or 5, or 6.
+There's something going on here.
+With the three double-quotes.
+We'll be able to type as much as we like.
+Even 4 lines if we want, or 5, or 6.
 !
