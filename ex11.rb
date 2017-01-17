@@ -6,3 +6,9 @@ print "How much do you weigh? "
 weight = gets.chomp
 
 puts "So, you're #{age} years old, #{height} tall and #{weight} heavy."
+
+# testing chomp
+# chomp removes the \n from x
+x = "cats dogs\n"
+print x
+print x.chomp
