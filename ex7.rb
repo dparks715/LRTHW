@@ -18,5 +18,5 @@ end11 = "e"
 end12 = "r"
 
 # print doesn't start a new line, so lines 21 and 22 print on the same line
-print end1 + end2 + end3 + end4 + end5 + end6
+print (end1 + end2 + end3 + end4 + end5 + end6) * 2
 puts end7 + end8 + end9 + end10 + end11 + end12
