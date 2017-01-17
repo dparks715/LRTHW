@@ -1,7 +1,8 @@
-user_name = ARGV.first
+user_name, user_age = ARGV
 prompt = 'INPUT REQUIRED '
 
 puts "Hi #{user_name}."
+puts "So you're #{user_age} years old?"
 puts "I'd like to ask you a few questions."
 puts "Do you like me #{user_name}? "
 puts prompt
