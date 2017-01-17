@@ -10,3 +10,10 @@ number = another.to_f
 
 smaller = number / 100
 puts "A smaller number is #{smaller}."
+
+# returns 10% of input as float
+print "How much money do you have? "
+cash = gets.chomp.to_f
+tax = cash * 0.10
+
+puts "Ten percent of that is #{tax}"
